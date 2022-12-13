@@ -1,6 +1,6 @@
 # Shermuhammad Ibrohimov
 ## Location
-- Location: Uzbekistan Bukhara 
+- Uzbekistan Bukhara 
 ## Contact
 - Telegram: (https://t.me/mister_sher10)
 - Email: mistersher10@gmail.com
