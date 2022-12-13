@@ -1,2 +1,2 @@
 # rsschool-cv
-This is an open repository for rs school
+- https://github.com/mister-sher10/rsschool-cv
