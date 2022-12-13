@@ -18,3 +18,14 @@
 - IN 2021 <br>
   FRONTEND DEVELOPER, PDP IT ACADEMY <br>
   I attended the PDP IT Academy training center for the Frontend Developer course
+## SKILLS
+- Ambitious
+- Responsible
+- One who brings a thing to an end
+- Inquisitive
+- Adaptable to the situation
+- HTML, CSS, SASS, Bootstrap
+- Java Script, Jquery, ES6
+- React & Redux
+## ACTIVITIES
+- Bachelor of Tashkent University of Information Technology, at the same time I completed the frontend course of various IT training centers, studied English and Russian languages at an intermediate level. I want to become a Java web developer in the future. I want to learn English and Russian languages at a high level.
