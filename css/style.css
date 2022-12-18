@@ -1,0 +1,295 @@
+/** Font face start */
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/static/Nunito-Regular.ttf") format("truetype");
+}
+/** Font face end */
+
+/** Defoult style start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito" , sans-serif;
+}
+/** Defoult style end */
+
+/** Header style start */
+/** About-yourself section start */
+.about-yourself{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(99, 99, 99);
+}
+.container{
+    width: 65%;
+}
+.about-yourself-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+.about-yourself-content img{
+    width: 20%;
+    border-radius: 100%;
+    border: solid #1D824C 3px;
+}
+.about-yourself-content img:hover{
+    box-shadow: 0 0 5px 5px rgba(22, 180, 90, 0.58);
+    cursor: pointer;
+}
+.about-yourself-content h1, p{
+    margin-top: 7px;
+    width: 100%;
+}
+.about-yourself-content h1{
+    font-size: 50px; 
+    text-transform: uppercase;
+}
+.first-name{
+    color: rgb(99, 99, 99);
+}
+.about-yourself-content p:last-child{
+    color: #1D824C;
+}
+.about-yourself-content p:last-child a{
+    color: #1D824C;
+    text-decoration: none;
+    font-weight: bold;
+}
+/** About-yourself section end */
+/** Hero section style start */
+.hero{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 40px;
+}
+.hero-content:hover{
+    transform: scale(0.95);
+    transition: 0.5s;
+    box-shadow: 0 0 5px 5px #1D824C;
+}
+.hero-content p{
+    line-height: 20px;
+}
+/** Hero section style end */
+/** Header style end */
+
+/** Main style start */
+/** Experience section style start */
+.experience{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience-content{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 40px;
+}
+.experience-content:hover{
+    transform: scale(0.95);
+    transition: 0.5s;
+    box-shadow: 0 0 5px 5px #1D824C;
+}
+.content-result{
+    width: 100%;
+    padding: 10px 40px;
+    border-left:dashed 3px rgb(99, 99, 99);
+}
+.date{
+    color: rgb(99, 99, 99);
+    font-weight: bold;
+}
+.title{
+    color: rgb(99, 99, 99);
+}
+.title .first-title{
+    color: #1D824C;
+    font-weight: bold;
+}
+/** Experience section style end */
+
+/** Education section style start*/
+.education{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education-content{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 40px;
+}
+.education-content:hover{
+    transform: scale(0.95);
+    transition: 0.5s;
+    box-shadow: 0 0 5px 5px #1D824C;
+}
+/** Education section style end*/
+
+/** Skills section style start */
+.skills{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.skills-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px 40px;
+}
+.skills-content:hover{
+    transform: scale(0.95);
+    transition: 0.5s;
+    box-shadow: 0 0 5px 5px #1D824C;
+}
+.content-result .skills-wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+.skills-wrap ul{
+    width: 50%;
+}
+.skills ul li::marker{
+    color: #1D824C;
+}
+.skills-wrap ul li{
+    margin-top: 5px;
+}
+/** Skills section style end */
+
+/** Activities section style start */
+.activities{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.activities-content{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 40px;
+}
+.activities-content:hover{
+    transform: scale(0.95);
+    transition: 0.5s;
+    box-shadow: 0 0 5px 5px #1D824C;
+}
+/** Activities section style end */
+/** Main style end */
+
+/** Footer style start */
+#footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-top: solid 1px rgb(99, 99, 99) ;
+    text-align: center;
+    font-weight: bold;
+}
+.footer-content{
+    padding: 20px 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-content div{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content a{
+    text-decoration: none;
+    color: #1D824C;
+}
+.footer-content img{
+    width: 60px;
+}
+/** Footer end */
+
+/** Media query style start */
+@media screen and (max-width:1000px) and (min-width:0px) {
+    .skills-wrap ul{
+        width: 100%;
+    }
+    .about-yourself-content h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:776px) and (min-width:0px) {
+    .container{
+        width: 87%;
+    }
+    .footer-content div:first-child{
+        width: 100%;
+    }
+    .footer-content div{
+        margin-top: 5px;
+        justify-content: center;
+        width: 50%;
+    }
+}
+@media screen and (max-width:480px) and (min-width:0px) {
+    .container{
+        width: 90%;
+    }
+    .about-yourself-content h1{
+        font-size: 20px;
+    }
+}
+/** Media query style end */
